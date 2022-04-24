@@ -22,3 +22,10 @@ jobs:
           user: pwnoz0r
           base: header
           plugin_introduction: yes
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          commits_authoring: firstname lastname, username, username@users.noreply.github.com
